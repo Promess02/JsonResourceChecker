@@ -6,6 +6,9 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Class for testing `JsonResourceChecker` class
+ */
 public class JsonResourceCheckerTest {
     @Test
     public void testVerifyInputJson_ContainingAsteriskReturnFalse() {
