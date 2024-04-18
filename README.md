@@ -71,8 +71,6 @@ public class JsonResourceChecker {
 - Make sure to replace `input.json` with your own JSON file name if it differs.
 - The `JsonResourceChecker` class uses the Jackson library (`ObjectMapper`) for JSON parsing. Ensure the library is correctly configured in your project.
 
-This README provides an overview of how to use the `JsonResourceChecker` class to verify JSON file contents. Adjust the instructions and code according to your specific requirements and project setup.
-
 ### JsonResourceCheckerTest
 
 The `JsonResourceCheckerTest` class is used to test the functionality of the `JsonResourceChecker` class, which verifies the structure and content of JSON files.
@@ -108,10 +106,3 @@ The `JsonResourceCheckerTest` class is used to test the functionality of the `Js
 3. **Running Tests**
     - Open the `JsonResourceCheckerTest` class in your IDE.
     - Run each test method individually or execute all test methods to validate the behavior of the `JsonResourceChecker` class under different scenarios.
-
-#### Notes
-- Each test method in `JsonResourceCheckerTest` performs specific checks and asserts the expected outcomes based on different input JSON files.
-- Use `assertThrows` to verify that specific exceptions are thrown with expected error messages.
-- Ensure that the test JSON files are correctly structured to cover various scenarios tested by the `JsonResourceChecker` class.
-
-This README provides an overview of the `JsonResourceCheckerTest` class and instructions for running the tests to validate the `JsonResourceChecker` functionality. Adjust the test scenarios and JSON files as needed based on your specific requirements and project setup.
